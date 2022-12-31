@@ -1,0 +1,410 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.boxa {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 620px;
+  width: 100vw;
+  background: #1f1e20;
+}
+.boxa span {
+  width: 998px;
+  height: 44px;
+  color: white;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  padding-top: 48px;
+  padding-bottom: 50px;
+  padding-left: 300px;
+  text-align: center;
+}
+.boxa .vector {
+  height: 20px;
+  width: 21px;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 240px;
+}
+.boxa .vector2 {
+  position: absolute;
+  margin-left: 1290px;
+  margin-top: 220px;
+}
+.boxb {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 500px;
+  margin-top: 60px;
+  border: 2px solid red;
+}
+.carda1 {
+  display: flex;
+  justify-content: between;
+  margin-left: 200px;
+}
+.acard1 {
+  padding: 40px;
+}
+.acard2,
+.acard3,
+.acard4 {
+  padding: 40px;
+  margin-left: 100px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: end;
+  height: 302px;
+  width: 280px;
+  background-image: url(images/Rectangle\ 655.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+}
+
+.card2 {
+  display: flex;
+  justify-content: end;
+  height: 302px;
+  width: 280px;
+  background-image: url(images/Rectangle\ 648.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+}
+.card3 {
+  display: flex;
+  justify-content: end;
+  height: 302px;
+  width: 280px;
+  background-image: url(images/Rectangle\ 647.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+  width: 18px;
+  height: 15px;
+  margin-top: 30px;
+  padding-left: 1px;
+}
+
+.sale {
+  position: relative;
+  width: 54px;
+  height: 28px;
+  right: 200px;
+  top: 18px;
+  background: #17b31b;
+}
+.sale h1 {
+  width: 30px;
+  height: 16px;
+  padding-top: 6px;
+  padding-left: 9px;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.dif {
+  width: 300px;
+  height: 48px;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 302px;
+  height: 48px;
+}
+.price1 h1 {
+  width: 48px;
+  height: 26px;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 36px;
+}
+.price2 h1 {
+  position: relative;
+  right: 6px;
+  width: 62px;
+  height: 26px;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  text-decoration-line: line-through;
+}
+
+.price3 h1 {
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  position: relative;
+  right: 20px;
+
+  color: #17b31b;
+}
+.buttona {
+  display: flex;
+  justify-content: center;
+  width: 302px;
+  height: 48px;
+  border: 1px solid white;
+}
+.buttona h1 {
+  width: 82px;
+  height: 24px;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  padding-top: 10px;
+  color: #ffffff;
+}
+/* nextpage */
+.nextp {
+  width: 100vw;
+  height: 1428px;
+  background: #151515;
+}
+.nexta {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(217, 217, 217, 0.16) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  padding-top: 100px;
+  width: 620px;
+  height: 400px;
+}
+.nexta h1 {
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+
+  color: #ffffff;
+}
+.nexta p {
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 20px;
+  color: #ffffff;
+}
+.nexta button {
+  width: 149px;
+  height: 48px;
+  margin-top: 25px;
+  background: #ffffff;
+}
+
+.nextb {
+  width: 520px;
+  height: 350px;
+}
+.nextb img {
+  width: 520px;
+  height: 350px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.ytube {
+  display: flex;
+  justify-content: center;
+  width: 1130px;
+  height: 520px;
+  background-image: url(images/Rectangle\ 634.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.ytube img {
+  height: 55px;
+  width: 80px;
+  margin-top: 220px;
+}
+@media (max-width: 400px) {
+  .boxa {
+    width: 360px;
+    height: 434px;
+  }
+  .boxa span {
+    position: relative;
+    right: 470px;
+    font-size: 20px;
+  }
+  .vector,
+  .vector2 {
+    display: none;
+  }
+  .card1 {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    width: 156px;
+    height: 156px;
+  }
+  .acard1 .dif {
+    width: 156px;
+    height: 50px;
+    position: absolute;
+    top: 280px;
+    left: 25px;
+    font-weight: 400;
+    font-size: 14px;
+
+    overflow: hidden;
+  }
+  .acard1 .price {
+    position: absolute;
+    top: 330px;
+    left: 25px;
+  }
+  .acard1 .price .price1 h1,
+  .price2 h1,
+  .price3 h1 {
+    width: 37px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .acard1 .price .price3 h1 {
+    width: 79px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .acard1 .buttona {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 370px;
+    left: 25px;
+  }
+  .acard1 .buttona h1 {
+    position: relative;
+    bottom: 8px;
+  }
+  .acard3,
+  .acard4 {
+    display: none;
+  }
+  .card2 {
+    position: absolute;
+    left: 190px;
+    top: 110px;
+    width: 156px;
+    height: 156px;
+  }
+  .acard2 .dif {
+    width: 156px;
+    height: 50px;
+    position: absolute;
+    top: 280px;
+    left: 200px;
+    font-weight: 400;
+    font-size: 14px;
+
+    overflow: hidden;
+  }
+
+  .acard2 .price {
+    position: absolute;
+    top: 330px;
+    left: 200px;
+  }
+  .acard2 .price .price1 h1,
+  .price2 h1 {
+    width: 37px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .acard2 .price .price3 h1 {
+    width: 90px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .acard2 .buttona {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 370px;
+    left: 200px;
+  }
+  .acard2 .buttona h1 {
+    position: relative;
+    bottom: 8px;
+  }
+  .nextp {
+    height: 1728px;
+  }
+  .nextb {
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+    margin-top: 30px;
+    padding: 0;
+  }
+  .ytube {
+    width: 320px;
+    height: 153px;
+    margin-top: 110px;
+  }
+  .ytube img {
+    height: 15px;
+    width: 20px;
+    margin-top: 70px;
+  }
+}
